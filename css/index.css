@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-right a {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar-right a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Styling untuk hero section */
+.hero{
+    background-image: url(https://methodist2.sch.id/assets/umum/images/why/foto_gedung.JPG);
+    height: 93vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
